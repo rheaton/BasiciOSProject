@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE208D6513CFAD0500C72924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6413CFAD0500C72924 /* UIKit.framework */; };
+		AE208D6713CFAD0500C72924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6613CFAD0500C72924 /* Foundation.framework */; };
+		AE208D6913CFAD0500C72924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6813CFAD0500C72924 /* CoreGraphics.framework */; };
+		AE208D6F13CFAD0500C72924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE208D6D13CFAD0500C72924 /* InfoPlist.strings */; };
+		AE208D7213CFAD0500C72924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D7113CFAD0500C72924 /* main.m */; };
+		AE208D7513CFAD0500C72924 /* DuhDeuxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */; };
+		AE208D7813CFAD0500C72924 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE208D7613CFAD0500C72924 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE208D6013CFAD0500C72924 /* DuhDeux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuhDeux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE208D6413CFAD0500C72924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE208D6613CFAD0500C72924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE208D6813CFAD0500C72924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE208D6C13CFAD0500C72924 /* DuhDeux-Info.plist */ = {isa = PBXFileReference; path = "DuhDeux-Info.plist"; sourceTree = "<group>"; };
+		AE208D6E13CFAD0500C72924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE208D7013CFAD0500C72924 /* DuhDeux-Prefix.pch */ = {isa = PBXFileReference; path = "DuhDeux-Prefix.pch"; sourceTree = "<group>"; };
+		AE208D7113CFAD0500C72924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE208D7313CFAD0500C72924 /* DuhDeuxAppDelegate.h */ = {isa = PBXFileReference; path = DuhDeuxAppDelegate.h; sourceTree = "<group>"; };
+		AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuhDeuxAppDelegate.m; sourceTree = "<group>"; };
+		AE208D7713CFAD0500C72924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE208D5D13CFAD0500C72924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D6513CFAD0500C72924 /* UIKit.framework in Frameworks */,
+				AE208D6713CFAD0500C72924 /* Foundation.framework in Frameworks */,
+				AE208D6913CFAD0500C72924 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE208D5513CFAD0500C72924 = {
+			isa = PBXGroup;
+			children = (
+				AE208D6A13CFAD0500C72924 /* DuhDeux */,
+				AE208D6313CFAD0500C72924 /* Frameworks */,
+				AE208D6113CFAD0500C72924 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE208D6113CFAD0500C72924 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE208D6013CFAD0500C72924 /* DuhDeux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE208D6313CFAD0500C72924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE208D6413CFAD0500C72924 /* UIKit.framework */,
+				AE208D6613CFAD0500C72924 /* Foundation.framework */,
+				AE208D6813CFAD0500C72924 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE208D6A13CFAD0500C72924 /* DuhDeux */ = {
+			isa = PBXGroup;
+			children = (
+				AE208D7313CFAD0500C72924 /* DuhDeuxAppDelegate.h */,
+				AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */,
+				AE208D7613CFAD0500C72924 /* MainWindow.xib */,
+				AE208D6B13CFAD0500C72924 /* Supporting Files */,
+			);
+			path = DuhDeux;
+			sourceTree = "<group>";
+		};
+		AE208D6B13CFAD0500C72924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE208D6C13CFAD0500C72924 /* DuhDeux-Info.plist */,
+				AE208D6D13CFAD0500C72924 /* InfoPlist.strings */,
+				AE208D7013CFAD0500C72924 /* DuhDeux-Prefix.pch */,
+				AE208D7113CFAD0500C72924 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE208D5F13CFAD0500C72924 /* DuhDeux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE208D7B13CFAD0500C72924 /* Build configuration list for PBXNativeTarget "DuhDeux" */;
+			buildPhases = (
+				AE208D5C13CFAD0500C72924 /* Sources */,
+				AE208D5D13CFAD0500C72924 /* Frameworks */,
+				AE208D5E13CFAD0500C72924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuhDeux;
+			productName = DuhDeux;
+			productReference = AE208D6013CFAD0500C72924 /* DuhDeux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE208D5713CFAD0500C72924 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AE208D5A13CFAD0500C72924 /* Build configuration list for PBXProject "DuhDeux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE208D5513CFAD0500C72924;
+			productRefGroup = AE208D6113CFAD0500C72924 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE208D5F13CFAD0500C72924 /* DuhDeux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE208D5E13CFAD0500C72924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D6F13CFAD0500C72924 /* InfoPlist.strings in Resources */,
+				AE208D7813CFAD0500C72924 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE208D5C13CFAD0500C72924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D7213CFAD0500C72924 /* main.m in Sources */,
+				AE208D7513CFAD0500C72924 /* DuhDeuxAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE208D6D13CFAD0500C72924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE208D6E13CFAD0500C72924 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE208D7613CFAD0500C72924 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE208D7713CFAD0500C72924 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE208D7913CFAD0500C72924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE208D7A13CFAD0500C72924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AE208D7C13CFAD0500C72924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuhDeux/DuhDeux-Prefix.pch";
+				INFOPLIST_FILE = "DuhDeux/DuhDeux-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE208D7D13CFAD0500C72924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuhDeux/DuhDeux-Prefix.pch";
+				INFOPLIST_FILE = "DuhDeux/DuhDeux-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE208D5A13CFAD0500C72924 /* Build configuration list for PBXProject "DuhDeux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE208D7913CFAD0500C72924 /* Debug */,
+				AE208D7A13CFAD0500C72924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE208D7B13CFAD0500C72924 /* Build configuration list for PBXNativeTarget "DuhDeux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE208D7C13CFAD0500C72924 /* Debug */,
+				AE208D7D13CFAD0500C72924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE208D5713CFAD0500C72924 /* Project object */;
+}
