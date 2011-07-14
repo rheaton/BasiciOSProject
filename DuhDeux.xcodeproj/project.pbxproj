@@ -14,6 +14,21 @@
 		AE208D7213CFAD0500C72924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D7113CFAD0500C72924 /* main.m */; };
 		AE208D7513CFAD0500C72924 /* DuhDeuxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */; };
 		AE208D7813CFAD0500C72924 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE208D7613CFAD0500C72924 /* MainWindow.xib */; };
+		AE208D8813CFAD1300C72924 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6413CFAD0500C72924 /* UIKit.framework */; };
+		AE208D8913CFAD1300C72924 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6613CFAD0500C72924 /* Foundation.framework */; };
+		AE208D8A13CFAD1300C72924 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D6813CFAD0500C72924 /* CoreGraphics.framework */; };
+		AE208D9013CFAD1300C72924 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE208D8E13CFAD1300C72924 /* InfoPlist.strings */; };
+		AE208D9313CFAD1300C72924 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D9213CFAD1300C72924 /* main.m */; };
+		AE208DA113CFAD2400C72924 /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D9E13CFAD2400C72924 /* Cedar-iPhone.framework */; };
+		AE208DA213CFAD2400C72924 /* OCHamcrest-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208D9F13CFAD2400C72924 /* OCHamcrest-iPhone.framework */; };
+		AE208DA313CFAD2400C72924 /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE208DA013CFAD2400C72924 /* OCMock-iPhone.framework */; };
+		AE208DB113CFAECF00C72924 /* FirstSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208DB013CFAECF00C72924 /* FirstSpec.m */; };
+		AE208DBA13CFB1CD00C72924 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208DB813CFB1CD00C72924 /* FirstController.m */; };
+		AE208DBB13CFB1CD00C72924 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208DB813CFB1CD00C72924 /* FirstController.m */; };
+		AE208DBC13CFB1CD00C72924 /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE208DB913CFB1CD00C72924 /* FirstController.xib */; };
+		AE208DBD13CFB1CD00C72924 /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE208DB913CFB1CD00C72924 /* FirstController.xib */; };
+		AE208DBF13CFB36C00C72924 /* DuhDeuxAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208DBE13CFB36C00C72924 /* DuhDeuxAppDelegateSpec.m */; };
+		AE208DC013CFB4B100C72924 /* DuhDeuxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +36,26 @@
 		AE208D6413CFAD0500C72924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AE208D6613CFAD0500C72924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE208D6813CFAD0500C72924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AE208D6C13CFAD0500C72924 /* DuhDeux-Info.plist */ = {isa = PBXFileReference; path = "DuhDeux-Info.plist"; sourceTree = "<group>"; };
+		AE208D6C13CFAD0500C72924 /* DuhDeux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuhDeux-Info.plist"; sourceTree = "<group>"; };
 		AE208D6E13CFAD0500C72924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AE208D7013CFAD0500C72924 /* DuhDeux-Prefix.pch */ = {isa = PBXFileReference; path = "DuhDeux-Prefix.pch"; sourceTree = "<group>"; };
+		AE208D7013CFAD0500C72924 /* DuhDeux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuhDeux-Prefix.pch"; sourceTree = "<group>"; };
 		AE208D7113CFAD0500C72924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE208D7313CFAD0500C72924 /* DuhDeuxAppDelegate.h */ = {isa = PBXFileReference; path = DuhDeuxAppDelegate.h; sourceTree = "<group>"; };
+		AE208D7313CFAD0500C72924 /* DuhDeuxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuhDeuxAppDelegate.h; sourceTree = "<group>"; };
 		AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuhDeuxAppDelegate.m; sourceTree = "<group>"; };
 		AE208D7713CFAD0500C72924 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AE208D8613CFAD1300C72924 /* DuhDeuxSpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuhDeuxSpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE208D8D13CFAD1300C72924 /* DuhDeuxSpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DuhDeuxSpecs-Info.plist"; sourceTree = "<group>"; };
+		AE208D8F13CFAD1300C72924 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE208D9113CFAD1300C72924 /* DuhDeuxSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DuhDeuxSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		AE208D9213CFAD1300C72924 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE208D9E13CFAD2400C72924 /* Cedar-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Cedar-iPhone.framework"; sourceTree = "<group>"; };
+		AE208D9F13CFAD2400C72924 /* OCHamcrest-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "OCHamcrest-iPhone.framework"; sourceTree = "<group>"; };
+		AE208DA013CFAD2400C72924 /* OCMock-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "OCMock-iPhone.framework"; sourceTree = "<group>"; };
+		AE208DB013CFAECF00C72924 /* FirstSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSpec.m; sourceTree = "<group>"; };
+		AE208DB713CFB1CD00C72924 /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
+		AE208DB813CFB1CD00C72924 /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		AE208DB913CFB1CD00C72924 /* FirstController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstController.xib; sourceTree = "<group>"; };
+		AE208DBE13CFB36C00C72924 /* DuhDeuxAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuhDeuxAppDelegateSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +69,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AE208D8313CFAD1300C72924 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D8813CFAD1300C72924 /* UIKit.framework in Frameworks */,
+				AE208D8913CFAD1300C72924 /* Foundation.framework in Frameworks */,
+				AE208D8A13CFAD1300C72924 /* CoreGraphics.framework in Frameworks */,
+				AE208DA113CFAD2400C72924 /* Cedar-iPhone.framework in Frameworks */,
+				AE208DA213CFAD2400C72924 /* OCHamcrest-iPhone.framework in Frameworks */,
+				AE208DA313CFAD2400C72924 /* OCMock-iPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -48,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				AE208D6A13CFAD0500C72924 /* DuhDeux */,
+				AE208D8B13CFAD1300C72924 /* DuhDeuxSpecs */,
 				AE208D6313CFAD0500C72924 /* Frameworks */,
 				AE208D6113CFAD0500C72924 /* Products */,
 			);
@@ -57,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				AE208D6013CFAD0500C72924 /* DuhDeux.app */,
+				AE208D8613CFAD1300C72924 /* DuhDeuxSpecs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +107,9 @@
 		AE208D6313CFAD0500C72924 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AE208D9E13CFAD2400C72924 /* Cedar-iPhone.framework */,
+				AE208D9F13CFAD2400C72924 /* OCHamcrest-iPhone.framework */,
+				AE208DA013CFAD2400C72924 /* OCMock-iPhone.framework */,
 				AE208D6413CFAD0500C72924 /* UIKit.framework */,
 				AE208D6613CFAD0500C72924 /* Foundation.framework */,
 				AE208D6813CFAD0500C72924 /* CoreGraphics.framework */,
@@ -78,6 +124,9 @@
 				AE208D7413CFAD0500C72924 /* DuhDeuxAppDelegate.m */,
 				AE208D7613CFAD0500C72924 /* MainWindow.xib */,
 				AE208D6B13CFAD0500C72924 /* Supporting Files */,
+				AE208DB713CFB1CD00C72924 /* FirstController.h */,
+				AE208DB813CFB1CD00C72924 /* FirstController.m */,
+				AE208DB913CFB1CD00C72924 /* FirstController.xib */,
 			);
 			path = DuhDeux;
 			sourceTree = "<group>";
@@ -91,6 +140,35 @@
 				AE208D7113CFAD0500C72924 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE208D8B13CFAD1300C72924 /* DuhDeuxSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				AE208DAF13CFAE5600C72924 /* Specs */,
+				AE208D8C13CFAD1300C72924 /* Supporting Files */,
+			);
+			path = DuhDeuxSpecs;
+			sourceTree = "<group>";
+		};
+		AE208D8C13CFAD1300C72924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE208D8D13CFAD1300C72924 /* DuhDeuxSpecs-Info.plist */,
+				AE208D8E13CFAD1300C72924 /* InfoPlist.strings */,
+				AE208D9113CFAD1300C72924 /* DuhDeuxSpecs-Prefix.pch */,
+				AE208D9213CFAD1300C72924 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE208DAF13CFAE5600C72924 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				AE208DB013CFAECF00C72924 /* FirstSpec.m */,
+				AE208DBE13CFB36C00C72924 /* DuhDeuxAppDelegateSpec.m */,
+			);
+			path = Specs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +191,23 @@
 			productReference = AE208D6013CFAD0500C72924 /* DuhDeux.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AE208D8513CFAD1300C72924 /* DuhDeuxSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE208D9C13CFAD1300C72924 /* Build configuration list for PBXNativeTarget "DuhDeuxSpecs" */;
+			buildPhases = (
+				AE208D8213CFAD1300C72924 /* Sources */,
+				AE208D8313CFAD1300C72924 /* Frameworks */,
+				AE208D8413CFAD1300C72924 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuhDeuxSpecs;
+			productName = DuhDeuxSpecs;
+			productReference = AE208D8613CFAD1300C72924 /* DuhDeuxSpecs.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				AE208D5F13CFAD0500C72924 /* DuhDeux */,
+				AE208D8513CFAD1300C72924 /* DuhDeuxSpecs */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +238,16 @@
 			files = (
 				AE208D6F13CFAD0500C72924 /* InfoPlist.strings in Resources */,
 				AE208D7813CFAD0500C72924 /* MainWindow.xib in Resources */,
+				AE208DBC13CFB1CD00C72924 /* FirstController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE208D8413CFAD1300C72924 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D9013CFAD1300C72924 /* InfoPlist.strings in Resources */,
+				AE208DBD13CFB1CD00C72924 /* FirstController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +260,19 @@
 			files = (
 				AE208D7213CFAD0500C72924 /* main.m in Sources */,
 				AE208D7513CFAD0500C72924 /* DuhDeuxAppDelegate.m in Sources */,
+				AE208DBA13CFB1CD00C72924 /* FirstController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE208D8213CFAD1300C72924 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE208D9313CFAD1300C72924 /* main.m in Sources */,
+				AE208DB113CFAECF00C72924 /* FirstSpec.m in Sources */,
+				AE208DBB13CFB1CD00C72924 /* FirstController.m in Sources */,
+				AE208DBF13CFB36C00C72924 /* DuhDeuxAppDelegateSpec.m in Sources */,
+				AE208DC013CFB4B100C72924 /* DuhDeuxAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +293,14 @@
 				AE208D7713CFAD0500C72924 /* en */,
 			);
 			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AE208D8E13CFAD1300C72924 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE208D8F13CFAD1300C72924 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -239,6 +366,54 @@
 			};
 			name = Release;
 		};
+		AE208D9A13CFAD1300C72924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuhDeuxSpecs/DuhDeuxSpecs-Prefix.pch";
+				INFOPLIST_FILE = "DuhDeuxSpecs/DuhDeuxSpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE208D9B13CFAD1300C72924 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DuhDeuxSpecs/DuhDeuxSpecs-Prefix.pch";
+				INFOPLIST_FILE = "DuhDeuxSpecs/DuhDeuxSpecs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -258,6 +433,16 @@
 				AE208D7D13CFAD0500C72924 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE208D9C13CFAD1300C72924 /* Build configuration list for PBXNativeTarget "DuhDeuxSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE208D9A13CFAD1300C72924 /* Debug */,
+				AE208D9B13CFAD1300C72924 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

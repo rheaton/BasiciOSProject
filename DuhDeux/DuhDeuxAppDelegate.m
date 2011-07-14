@@ -7,6 +7,7 @@
 //
 
 #import "DuhDeuxAppDelegate.h"
+#import "FirstController.h"
 
 @implementation DuhDeuxAppDelegate
 
@@ -16,6 +17,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    UIViewController * myController = [[FirstController alloc] initWithNibName:@"FirstController" bundle:nil];
+    [self.window setRootViewController:myController];
     [self.window makeKeyAndVisible];
     return YES;
 }
